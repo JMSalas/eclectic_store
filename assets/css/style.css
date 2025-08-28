@@ -1,0 +1,79 @@
+body {
+    background-image: url(../images/dots_background.jpg);
+}
+
+header {
+    background-color: rgb(117, 5, 165);
+    background: linear-gradient(180deg,rgb(48,8,65) 0%, rgb(117,5,165) 80%);
+}
+
+nav > div {
+    background-color: rgb(117, 5, 165);
+}
+
+.monoton-regular {
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+#cargando-catalogo {
+    color: rgb(117, 5, 165);
+}
+
+#catalogo img{
+    max-height: 200px;
+}
+
+#catalogo .card-body p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.card .flex-column{
+    height: 200px;
+}
+
+.card:hover {
+    cursor: pointer;
+    background-color: lightgoldenrodyellow;
+}
+
+.pagination .page-item.active .page-link , #btn-volver-detalles, #btn-volver-finalizar, #btn-volver-carro{
+    background-color: rgb(117, 5, 165); 
+    border-color: rgb(117, 5, 165);    
+    color: white;                     
+}
+
+.pagination .page-item .page-link {
+    border-color: rgb(117, 5, 165);     
+    color: rgb(117, 5, 165);           
+}
+
+.pagination .page-item[data-pagina="prev"] .page-link {
+    background-color: rgb(161, 33, 216); 
+    color: white;                      
+}
+
+.pagination .page-item[data-pagina="next"] .page-link {
+    background-color: rgb(161, 33, 216); 
+    color: white;                       
+}
+
+#pre-footer{
+    background-color: rgb(117, 5, 165);
+}
+
+footer {
+    background-color: rgb(117, 5, 165);
+    background: linear-gradient(0deg,rgb(48,8,65) 0%, rgb(117,5,165) 80%);
+}
