@@ -304,7 +304,7 @@ export class AdministradorInterfaz {
                                     <div class="align-self-center">${compra.cantidad}</div>
                                     <button class="btn rounded-end-5 minus"><i class="bi bi-dash-lg"></i></button>
                                 </div>
-                                <button id="eliminarCompra" class="btn btn-warning ms-3 rounded-5"><i class="bi bi-trash3"></i> Eliminar Producto</button>
+                                <button id="eliminarCompra" class="btn btn-warning ms-3 rounded-5"><i class="bi bi-trash3"></i> Remove Product</button>
                             </div>     
                         </div>
                     </div>
